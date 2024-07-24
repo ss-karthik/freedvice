@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #72c493;
+    font-family: jost;
+}
+
+h3 {
+    text-align: center;
+}
+
+.advice {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: beige;
+    font-size: 20px;
+}
+
+.wisecat {
+    max-width: 200px;
+    height: auto;
+}
+
+.but {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: beige;
+    cursor: pointer;
+}
